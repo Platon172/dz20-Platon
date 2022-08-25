@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.wrapper {
+  width: 1208px;
+  margin: auto;
+}
+.header {
+  height: 100vh;
+  background-image: url("./img/pexels-luis-del-río-15286.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 20px;
+}
+.header-menu {
+  text-align: center;
+}
+.header-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 40px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.header-title {
+  width: 86%;
+  color: white;
+  font-size: 78px;
+  letter-spacing: 4px;
+  padding-top: 368px;
+}
+
+.header-title > span {
+  font-style: italic;
+}
